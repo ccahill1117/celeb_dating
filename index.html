@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Celebrity Dating Webpage</title>
+  </head>
+  <body>
+    <div class="container">
+
+
+      <h1>Celeb dating site</h1>
+
+        <form class="container" id="profile">
+          <div class="form-group has-success">
+            <label class="control-label" for="inputSuccess1">Please input your name</label>
+            <input type="text" class="form-control" id="inputSuccess1" aria-describedby="helpBlock2">
+            <span id="helpBlock2" class="help-block"></span>
+          </div>
+          <div class="form-group has-warning">
+            <label class="control-label" for="inputWarning1">Please input your age</label>
+            <input type="text" class="form-control" id="age">
+          </div>
+          <h1>What meal do you want?</h1>
+          <select class="form-control" id="meal">
+            <option selected>What should we do?</option>
+            <option>Brunch</option>
+            <option>Lunch</option>
+            <option>Dinner</option>
+          </select>
+
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="car" value="sport" checked>
+                Sport car
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="car" value="family" checked>
+                Family Car
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="car" value="motorcycle" checked>
+                Motorcycle
+              </label>
+            </div>
+
+            <button type="submit" id="submitProfile" class="btn" name="button">Submit Your Dating Profile</button>
+
+
+        </form>
+
+      <div class="container" id="date1">
+        <h2>this date1</h2>
+      </div>
+
+      <div class="container" id="date2">
+        <h2>this date2</h2>
+      </div>
+
+      <div class="container" id="date3">
+        <h2>this date3</h2>
+      </div>
+
+    </div>
+  </body>
+</html>
